@@ -1,0 +1,246 @@
+*{
+    font-family: "Protest Riot";
+}
+.Inner-Cards:hover{
+    
+    transition: 0.3s ease-in-out;
+    box-shadow: #656565 0 5px 10px 5px;
+}
+.AboutMe-Btn:hover{
+    box-shadow: #656565 0px 5px 10px 5px;
+}
+.Card-anim{
+        opacity: 0;
+        transform: translateX(60px);
+        animation: ToSlide 2s linear forwards;
+    }
+
+    @keyframes ToSlide {
+        100%{
+            opacity: 1;
+            transform: translateX(0%);
+        }
+}
+.About-anim{
+        opacity: 0;
+        transform: translateY(-60px);
+        animation: ToSlide 2s linear forwards;
+    }
+
+    @keyframes ToSlide {
+        100%{
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    
+}
+h2{
+    font-size:2rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.About-p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.AboutMe-Div{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.AbouMe-Inner-Div{
+    /* background-color: #fff; */
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.AboutMe-Inner-SecDiv{
+    text-align: left;
+}
+
+.AboutMe-Inner-P{
+    color:#fff;
+    text-align: left;
+}
+.Download{
+color: #fff;
+text-decoration: none; 
+font-weight: 700;   
+}
+.AboutMe-Btn{
+    margin: 25px 0 0 0;
+    padding: 12px 30px;
+    background-color: gray;
+    border-radius: 5px;
+    font-family: 700;
+    color: #fff;
+}
+.AbouMe-Inner-Img img{
+
+    width: 23rem;
+    border-radius: 8px;
+}
+.AbouMe-Inner-Card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Inner-Cards{
+    box-shadow: 0px 2px 5px 0px yellow;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+.AboutMe-Icons{
+    font-size: 18px;
+}
+.AbouMe-Inner-Text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media screen and (max-width: 850px) {
+    h2{
+        font-size:2rem;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .About-p{
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .AboutMe-Div{
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .AbouMe-Inner-Div{
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .AboutMe-Inner-SecDiv{
+
+        text-align: center;
+    }
+    .AboutMe-Inner-P{
+        color:#fff;
+        text-align: center;
+    }
+    .Download{
+    color: #fff;
+    text-decoration: none;    
+    }
+    .AboutMe-Btn{
+        padding: 12px 30px;
+        background-color: gray;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .AbouMe-Inner-Img img{
+        width: 23rem;
+        border-radius: 8px;
+    }
+    .AbouMe-Inner-Card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Inner-Cards{
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 8px 14px;
+        color: #fff;
+        border: 2px solid #fff;
+        background: transparent;
+    }
+    .AboutMe-Icons{
+        font-size: 18px;
+    }
+    .AbouMe-Inner-Text{
+        margin: 40px 0 0 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size:2rem;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .About-p{
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .AboutMe-Div{
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .AbouMe-Inner-Div{
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .AboutMe-Inner-SecDiv{
+
+        text-align: center;
+    }
+    .AboutMe-Inner-P{
+        color:#fff;
+        text-align: center;
+    }
+    .Download{
+    color: #fff;
+    text-decoration: none;    
+    }
+    .AboutMe-Btn{
+        padding: 12px 30px;
+        background-color: gray;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .AbouMe-Inner-Img img{
+        width: 21rem;
+        border-radius: 8px;
+    }
+    .AbouMe-Inner-Card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Inner-Cards{
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 8px 14px;
+        color: #fff;
+        border: 2px solid #fff;
+        background: transparent;
+    }
+    .AboutMe-Icons{
+        font-size: 18px;
+    }
+    .AbouMe-Inner-Text{
+        margin: 40px 0 0 0;
+    }
+}
